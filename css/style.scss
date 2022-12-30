@@ -21,7 +21,8 @@ body{
        font-family: monospace;
        letter-spacing: .5px;
     }
-    input[type="text"]{
+    #text{
+        display: inline-block;
         text-align: center;
         margin-top: 50px;
         font-size: 50px;

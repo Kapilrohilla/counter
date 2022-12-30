@@ -1,14 +1,15 @@
 const text = document.getElementById('text');
 const icr = document.getElementById('icrBtn');
 const dcr = document.getElementById('dcrBtn');
-let i = text.value;
+let i = text.innerText;
 const increment = () => {
     i++;
-    text.value = i;
+    // text.value = i;
+    text.innerText = i
 }
 const decrement = () => {
     i--;
-    text.value= i; 
+    text.innerText= i; 
 }
 const loopInc = () => {
     while(true){
@@ -17,6 +18,3 @@ const loopInc = () => {
 }
 icr.addEventListener('click',increment);
 dcr.addEventListener('click',decrement);
-
-// icr.addEventListener('mousedown',increment);
-//icr.removeEventListener('mouseup',loopInc);
