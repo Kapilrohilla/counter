@@ -43,5 +43,11 @@ body{
             background: linear-gradient(45deg, #ffc0cbd9,#c8c3c3ab)
         }
     }
+    @media screen and (max-width: 500){
+        .Btns{
+            flex-direction: column !important;
+            gap: 20px;
+        }
+    }
 
 }

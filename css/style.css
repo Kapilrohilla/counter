@@ -42,4 +42,11 @@ body {
   height: 50px;
   width: 200px;
   background: linear-gradient(45deg, rgba(255, 192, 203, 0.8509803922), rgba(200, 195, 195, 0.6705882353));
+}
+@media all and (max-width: 500px) {
+  .container .Btns {
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+  }
 }/*# sourceMappingURL=style.css.map */
